@@ -1,0 +1,13 @@
+{
+  "name": "ci-cd-demo-app",
+  "version": "1.0.0",
+  "description": "Simple JS app for learning CI/CD",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "bash ./test.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
